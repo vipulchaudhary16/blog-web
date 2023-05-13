@@ -1,0 +1,57 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../assets/torii-forest-illustration.png");
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    margin: 0 auto;
+    background-color: #FAFAFA;
+    margin: 1rem 0;
+    padding: 0.7rem;
+}
+
+.input-container span {
+    width: 80px;
+    background: linear-gradient(95.32deg, #313131 0%, #000000 101.64%);
+    color: #FAFAFA;
+    font-size: small;
+    padding: 9px 3px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 9px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.input-container input {
+    border: none;
+    margin-left: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #313131;
+}
+
+.submit-btn {
+    padding: 5px 10px;
+    background: linear-gradient(95.32deg, #313131 0%, #000000 101.64%);
+    border: 2px solid #FFFFFF;
+    border-radius: 3px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}

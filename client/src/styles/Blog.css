@@ -1,0 +1,48 @@
+.blog-container {
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.blog-header {
+    position: relative;
+    height: 300px;
+}
+
+.blog-header .blog-image {
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.blog-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 300px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.blog-header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 999;
+}
+
+.rating-star {
+    height: 50px;
+    width: 50px;
+    margin: 0 10px;
+}
+
+.blog-body {
+    padding: 2rem;
+    text-align: justify;
+}
