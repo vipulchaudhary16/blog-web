@@ -1,0 +1,39 @@
+.add-blog-form{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    padding: 3rem;
+}
+
+.add-blog-form input[type="text"]{
+    width: 30rem;
+    height: 2rem;
+    border: none;
+    border-bottom: 1px solid #313131;
+    padding: 5px;
+    outline: none;
+}
+
+.add-blog-form textarea{
+    font-size: 1rem;
+    padding: 5px 3px;
+}
+
+.add-blog-form label{
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 9px;
+    letter-spacing: 1px;
+    color: #313131;
+}
+
+.add-blog-form button{
+    width: 10rem;
+    height: 2rem;
+    background: linear-gradient(95.32deg, #313131 0%, #000000 101.64%);
+    border: 2px solid #FFFFFF;
+    border-radius: 3px;
+    color: #FFFFFF;
+    cursor: pointer;
+}

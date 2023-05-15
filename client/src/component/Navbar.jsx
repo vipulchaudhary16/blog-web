@@ -9,6 +9,7 @@ export const Navbar = () => {
         <nav>
             <div className="link-container">
                 <Link to="/" className={`link ${path == "" && 'active-link'}`} onClick={() => setPath("blog")}>Blog</Link>
+                <Link to="/add-blog" className={`link ${path == "add-blog" && 'active-link'}`} onClick={() => setPath("add-blog")}>Add Blog</Link>
                 <Link to="/signup" className={`link ${path == "signup" && 'active-link'}`} onClick={() => setPath("signup")}>Sign Up</Link>
                 <Link to="/login" className={`link ${path == "login" && 'active-link'}`} onClick={() => setPath("login")}>Log In</Link>
             </div>

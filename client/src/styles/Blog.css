@@ -46,3 +46,34 @@
     padding: 2rem;
     text-align: justify;
 }
+
+.blog-preview-container {
+    display: flex;
+    max-width: 30rem;
+    max-height: 6rem;
+    text-align: justify;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.blog-preview-container img {
+    height: 100px;
+    width: 180px;
+    margin-right: 1rem;
+}
+
+.blog-preview-container h2 {
+    font-weight: 700;
+    font-size: 17.3481px;
+    line-height: 25px;
+    color: #020202;
+}
+
+.blog-preview-container span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    color: #020202;
+}
