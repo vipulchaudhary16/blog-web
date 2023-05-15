@@ -4,14 +4,14 @@ const dotenv = require('dotenv')
 dotenv.config()
 const app = express()
 const PORT = 8080 || process.env.PORT
+//for cross orgin request
+app.use(cors())
 
 //database connection
 require('./configDB')
 
 //request body will contains json data
 app.use(express.json())
-//for cross orgin request
-app.use(cors())
 
 //adding routes
 app.use("/api/auth", require("./routes/Auth"))

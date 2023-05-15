@@ -12,7 +12,7 @@ const AddBlogForm = () => {
     const [title, setTitle] = useState('');
     const [body, setBody] = useState('');
     const [poster, setPoster] = useState('');
-    const { addBlog } = useContext(BlogContext)
+    const { addBlog , getBlogs} = useContext(BlogContext)
     const [loading, setLoading] = useState(false)
 
     const handleSubmit = (e) => {
