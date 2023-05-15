@@ -1,16 +1,11 @@
 const express = require('express')
 const dotenv = require('dotenv')
-dotenv.config()
 const app = express()
 const PORT = 8080 || process.env.PORT
 //for cross orgin request
 const cors = require('cors');
-const corsOptions ={
-    origin:'https://anime-blogs.netlify.app', 
-    credentials:true,            //access-control-allow-credentials:true
-    optionSuccessStatus:200
-}
-app.use(cors(corsOptions));
+app.use(cors());
+dotenv.config()
 
 //database connection
 require('./configDB')

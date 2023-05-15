@@ -16,7 +16,7 @@ export const BlogProvider = ({ children }) => {
     }, [])
 
     const getBlogs = async () => {
-        await axios.get(`${API}/api/blog`).then((res) => {
+        await axios.get(`${API}/api/blog`,).then((res) => {
             setBlogs(res.data)
         })
     }
